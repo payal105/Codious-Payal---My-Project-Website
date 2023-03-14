@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+body {
+    background: rgba(255, 255, 255, 0.96);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    position: fixed;
+    width: 100px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow: 7px 5px 10px rgba(240, 220, 220, 0.33);
+}
+
+.navbar .logo {
+    padding: 10px;
+    margin-bottom: 40px;
+}
+.navbar .logo img{
+    height: 73px;
+    width: 76px;
+}
+.navbar .nav-items {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    left: 20px;
+    top: 217px;
+}
+
+.nav-items a img {
+    margin-bottom: 40px;
+}
+
+
+.home {
+    padding: 50px;
+}
+
+.home .center {
+    margin-top: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 265px;
+    height: 238px;
+}
+
+.home h3 {
+    text-align: center;
+    font-size: 35px;
+    color: #090909;
+    font-family: 'Tilt Prism', cursive;
+    letter-spacing: 5px;
+}
+
+.home .socials {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 265px;
+    margin-bottom: 40px;
+}
+.home .socials img{
+    padding: 4px;
+}
+.home .home-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(137.52deg, #E8AB0F 44.49%, #B012E8 97.01%);
+    border-radius: 50px;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    padding: 0.80rem 2rem;
+    color: #FFFFFF;
+}
+
+.projects {
+    margin-top: 200px;
+}  
+.projects h3{
+    text-align: center;
+    font-size: 35px;
+    color: #090909;
+    font-family: 'Tilt Prism', cursive;
+    letter-spacing: 5px;
+}
+
+.projects .table-container{
+    display: block;
+    margin-left: 157px;
+    margin-right: auto;
+    padding: 20px;
+}
+ #myInput{
+    width: 100%;
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: none;
+    border-bottom: 2px solid #E8AB0F;
+    outline: none;
+    margin-bottom: 12px; /* Add some space below the input */
+    text-align: center;
+    
+}
+#myInput::placeholder{
+    text-align: center;
+}
+#myTable {
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    border: 1px solid #ddd; /* Add a grey border */
+    font-size: 18px; /* Increase font-size */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #myTable th, #myTable td {
+    text-align: center; /* Left-align text */
+    padding: 12px; /* Add padding */
+  }
+  td img{
+    height: 50px;
+    width: 50px;
+  }
+  td a i{
+    font-size: 20px;
+    padding: 5px;
+  }
+  #myTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myTable tr.header, #myTable tr:hover {
+    /* Add a grey background color to the table header and on hover */
+    background-color: #f1f1f1;
+  }
+  .latest{
+    margin-top: 200px;
+  }
+  .latest h3{
+    text-align: center;
+    font-size: 35px;
+    color: #090909;
+    font-family: 'Tilt Prism', cursive;
+    letter-spacing: 5px;
+  }
+  .latest .container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .latest .container .content-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 90px;
+  }
+  .latest .container .content-section .card{
+    flex: 1;
+    margin: 20px 20px;
+    box-shadow: 0px 2px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .latest .container .content-section .card .card-img{
+    width: 100%;
+    height: auto;
+  }
+  .latest .container .content-section .card h2{
+    margin: 15px 0px;
+    font-size: 28px;
+    color: #1662a1;
+    font-family: sans-serif;
+  }
+  .latest .container .content-section .card p a i img{
+    padding: 0 10px;
+    margin-bottom: 20px;
+  }
+
+  .contact{
+    margin-top: 200px;
+  }
+  .contact h3{
+    text-align: center;
+    font-size: 35px;
+    color: #090909;
+    font-family: 'Tilt Prism', cursive;
+    letter-spacing: 5px;
+  }
+  
+  .contact .form input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #E8AB0F;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .contact .form .btn{
+    display: block;
+    margin: auto auto;
+    background: #E8AB0F;
+    color: #FFFFFF;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  footer .more-info{
+    text-align: center;
+    background-color: #E8AB0F;
+    color: #FFFFFF;
+    padding: 10px;
+  }
+  footer .more-info a{
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  footer .more-info a:hover{
+    color: #B012E8;
+  }
+@media screen and (max-width:900px) {
+    section {
+        margin-left: 90px;
+    }
+
+    .navbar {
+        width: 100px;
+    }
+
+    .navbar .logo img {
+        height: 40px;
+        width: 73px;
+    }
+
+    .navbar .nav-items {
+        left: 25px;
+    }
+
+    .nav-items a img {
+        height: 50px;
+        width: 50px;
+        margin-bottom: 30px;
+    }
+    .projects .table-container{
+        margin-left: 90px;
+    }
+    #myTable{
+        font-size: 12px;
+    }
+    td img{
+        height: 36px;
+        width: 38px;
+    }
+    td a i{
+        font-size: 14px;
+    }
+    .latest .container .content-section{
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width:768px) {
+    .latest .container .content-section{
+        flex-direction: column;
+    }
+    .latest .container .content-section .card .card-img {
+        width: 75%;
+        height: auto;
+    }
+    .latest .container .content-section .card h2{
+        font-size: 13px;
+    }
+    
+}
+@media screen and (max-width:540px) {
+    section {
+        margin-left: 60px;
+    }
+
+    .navbar {
+        width: 100px;
+    }
+
+    .navbar .logo img {
+        height: 40px;
+        width: 73px;
+    }
+
+    .navbar .nav-items {
+        left: 25px;
+    }
+
+    .nav-items a img {
+        height: 50px;
+        width: 50px;
+        margin-bottom: 30px;
+    }
+
+    .home .center {
+        margin-top: 12px;
+        width: 174px;
+        height: 176px;
+    }
+
+    .home h3,.projects h3,.latest h3,.contact h3 {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .home .socials{
+        width: 199px;
+    }
+    .home .socials img{
+        height: 25px;
+        width: 25px;
+        padding: 2px;
+    }
+    .home .home-btn{
+        width: 107px;
+        height: 20px;
+        font-size: 13px;
+    }
+    #myTable th, #myTable td {
+        text-align: center;
+        padding: 5px;
+        font-size: 10px;
+    }
+    td img{
+        height: 20px;
+        width: 20px;
+    }
+    .latest .container .content-section {
+        padding: 0 46px;
+    }
+
+}
+@media screen and (max-width:445px) {
+    .latest .container .content-section{
+        flex-direction: column;
+    }
+    .latest .container .content-section .card .card-img {
+        width: 75%;
+        height: auto;
+    }
+    .latest .container .content-section .card h2{
+        font-size: 13px;
+    }
+}
+
