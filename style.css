@@ -291,6 +291,9 @@ html {
     .latest .container .content-section .card h2{
         font-size: 13px;
     }
+     footer .more-info{
+        font-size: 16px;
+    }
     
 }
 @media screen and (max-width:540px) {
