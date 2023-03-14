@@ -204,7 +204,7 @@ html {
     letter-spacing: 5px;
   }
   
-  .contact .form input{
+  .contact .form input,.latest input{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -214,7 +214,7 @@ html {
     padding: 10px;
     margin-bottom: 20px;
   }
-  .contact .form .btn{
+  .contact .form .btn, .latest .btn{
     display: block;
     margin: auto auto;
     background: #E8AB0F;
@@ -225,7 +225,14 @@ html {
     margin-bottom: 20px;
     cursor: pointer;
   }
-  
+  .latest .newsletter span{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+  }
   
 @media screen and (max-width:900px) {
     section {
@@ -279,9 +286,7 @@ html {
     .latest .container .content-section .card h2{
         font-size: 13px;
     }
-     footer .more-info{
-        font-size: 16px;
-    }
+    
     
 }
 @media screen and (max-width:540px) {
