@@ -226,19 +226,7 @@ html {
     cursor: pointer;
   }
   
-  footer .more-info{
-    text-align: center;
-    background-color: #E8AB0F;
-    color: #FFFFFF;
-    padding: 10px;
-  }
-  footer .more-info a{
-    color: #FFFFFF;
-    text-decoration: none;
-  }
-  footer .more-info a:hover{
-    color: #B012E8;
-  }
+  
 @media screen and (max-width:900px) {
     section {
         margin-left: 90px;
