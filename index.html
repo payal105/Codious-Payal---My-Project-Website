@@ -8,169 +8,192 @@
     <link rel="icon" type="image/x-icon" href="images/CP.png">
     <title>Codious Payal</title>
     <link rel="stylesheet" href="style.css">
-
-
-
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 </head>
 
 <body>
-    <div class="navbar">
-        <div class="logo">
-            <img src="images/CP.png" alt="">
-        </div>
-
-        <div class="nav-items">
-            <a href="#home"><img src="images/home.png" alt=""></a>
-            <a href="#latest"><img src="images/idea.png" alt=""></a>
-            <a href="#projects"><img src="images/projects.png" alt=""></a>
-            <a href="#contact"><img src="images/contact.png" alt=""></a>
+    <!-- navbar -->
+    <div class="menu">
+        <div class="menu-list">
+            <div class="logo">
+                <a href="#home"><img src="images/CP.png" alt=""></a>
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li><a href="#home"><i class="fa-solid fa-house"></i></a></li>
+                    <li><a href="#latest"><i class="fa-solid fa-star"></i></a></li>
+                    <li><a href="#projects"><i class="fa-solid fa-layer-group"></i></a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-message"></i></a></li>
+                </ul>
+            </div>
         </div>
     </div>
 
+    <!-- home -->
     <section class="home" id="home">
-        <img src="images/homeimg.png" alt="" class="center">
-        <h3>Payal Adhikary</h3>
-
+        <div class="home-container">
+            <img src="images/homeimg.png" alt="">
+        </div>
+        <h1 class="section-title">Codious Payal</h1>
         <div class="socials">
-            <a href="https://github.com/payal105" target="_blank"><img src="images/github.png" alt=""></a>
-            <a href="https://www.linkedin.com/in/payal-adhikary-55bbb1223/" target="_blank"><img src="images/linkedin.png" alt=""></a>
-            <a href="https://www.facebook.com/payal.adhikary.758" target="_blank"><img src="images/facebook.png" alt=""></a>
-            <a href="https://www.instagram.com/payal_adhikary_dyna/" target="_blank"><img src="images/instagram.png" alt=""></a>
-            <a href="https://twitter.com/payal_adhikary" target="_blank"><img src="images/twitter.png" alt=""></a>
-            <a href="https://www.behance.net/payaladhikary" target="_blank"><img src="images/behance.png" alt=""></a>
+            <a href="https://github.com/payal105" target="_blank"><i class="uil uil-github-alt"></i></a>
+            <a href="https://www.linkedin.com/in/payal-adhikary-55bbb1223/" target="_blank"><i
+                    class="uil uil-linkedin-alt"></i></a>
+            <a href="https://www.facebook.com/payal.adhikary.758/ " target="_blank"><i
+                    class="uil uil-facebook-f"></i></a>
+            <a href="https://www.instagram.com/payal_adhikary_dyna/ " target="_blank"><i
+                    class="uil uil-instagram"></i></a>
+            <a href="https://twitter.com/payal_adhikary" target="_blank"><i class="uil uil-twitter-alt"></i></a>
+            <a href="https://www.behance.net/payaladhikary" target="_blank"><i class="uil uil-behance-alt"></i></a>
+            <a href="https://blogsbypayal.weebly.com/" target="_blank"><i class="uil uil-document-layout-right"></i></a>
         </div>
 
-        <a href="#projects" class="home-btn">Explore More</a>
+        <button><a href="#projects">Explore <span>👉</span> </a></button>
+
     </section>
 
+    <!-- latest projects -->
     <section class="latest" id="latest">
-        <h3>Latest Works</h3>
-        <div class="container">
-            <div class="content-section">
-                <div class="card">
-                    <img src="images/work-6.png" alt="" class="card-img">
-                    <h2>News App in Android Studio</h2>
-                    <p>
-                    <a href="https://drive.google.com/file/d/1X54IyWFNb-xHc_6VH8DRtKJa4CH2mq3T/view" target="_blank"><img src="images/link.png" alt=""></a></p>
-                </div>
+        <h1 class="section-title">Latest Works</h1>
 
-                <div class="card">
-                    <img src="images/work-7.png" alt="" class="card-img">
-                    <h2>Signup & Signin Screens (UI/UX)</h2>
-                    <p>
-                    <a href="https://www.behance.net/gallery/162391009/SignUp-SignIn-Screens" target="_blank"><img src="images/link.png" alt=""></a></p>
-                </div>
+        <div class="latest-container">
+            <div class="card">
+                <img src="images/work-9.png" alt="">
+                <h4>Food Delivery App (UI/UX)</h4>
+                <p>This is the mobile app design of a food delivery app using Figma.</p>
+                <button class="btn"><a href="https://www.behance.net/gallery/162520373/Food-Delivery-App-%28Mobile-Design%29?share=1" target="_blank"> Have a look 👉 </a></button>
+            </div>
+            <div class="card">
+                <img src="images/work-6.png" alt="">
+                <h4>News App (Android)</h4>
+                <p>A handy news app for those who are fond to update themselves regularly built using JAVA in Android Studio.</p>
+                <button class="btn"><a href="https://drive.google.com/file/d/1X54IyWFNb-xHc_6VH8DRtKJa4CH2mq3T/view" target="_blank"> Have a look 👉 </a></button>
+            </div>
+        </div>
+    </section>
+    <!-- projects -->
+    <section class="projects" id="projects">
+        <h1 class="section-title">My Works</h1>
 
-                
+        <div class="project-area">
+            <div class="input-box">
+                <input type="text" placeholder="Search..." id="projectSearch" class="projectSearch">
+                <span class="search">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                </span>
+                <i class="fa-solid fa-xmark close-icon"></i>
             </div>
         </div>
 
-        <div class="newsletter">
-            <h3>Subscribe to get updated!!</h3>
-            <form name="submit-to-google-sheet">
-            <input type="email" name="Email" placeholder="Enter your email" required>
-            <button class="btn" type="submit">Subscribe</button>
-        </form>
-        <span id="msg"></span>
+        <div class="container">
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/work-1.png" alt="">
+                    <h3 class="title">Chat App Using PHP</h3>
+                    <p>Built using PHP,SQL & AJAX and connects you to your friends by logging you in. You can search a user, see who are active and send them messages. Get the source code in github and demo in the link given below.</p>
+                    <a href="https://github.com/payal105/PHPChatApp" class="btn" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="http://mychathandle.epizy.com/" class="btn" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+
+                <div class="box">
+                    <img src="images/work-2.png" alt="">
+                    <h3 class="title">SignUp & SignIn Screens (UI/UX)</h3>
+                    <p>This is a simple yet elegant design of how your signup and signin forms should look like. Have a look through the link given below.</p>
+                    
+                    <a href="https://www.behance.net/gallery/162391009/SignUp-SignIn-Screens" class="btn" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+
+                <div class="box">
+                    <img src="images/work-3.png" alt="">
+                    <h3 class="title">Realtime Chatapp using NodeJS, Socket.io & Express</h3>
+                    <p>This realtime chat app built using NodeJS, Socket.io & Express serves the purpose of having a one-time chat with your friend. You can have a group chat as well and you can also view who's joining or leaving the chat. Access the source code through github and have a demo through the link given below.</p>
+                    <a href="https://github.com/payal105/myChatRoom" class="btn" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://mychatroom.onrender.com/" class="btn" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+
+                <div class="box">
+                    <img src="images/work-4.png" alt="">
+                    <h3 class="title">Apple Watch Landing Page (UI/UX)</h3>
+                    <p>This is the website design of the landing page of Apple Watch made in Figma. It is also a prototypic model. Have a look through the link given below.</p>
+                    
+                    <a href="https://www.behance.net/gallery/162443475/Apple-Watch-Landing-Page-Design" class="btn" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+
+                <div class="box">
+                    <img src="images/work-5.png" alt="">
+                    <h3 class="title">Social Media App With Django</h3>
+                    <p>This Social Media App is made using Django as the backend to store the information of users. It has the features to upload pictures, like the posts of the users you follow and get also modify your own profile. Source code is available on github and to experiment with it click on the link given below.</p>
+                    <a href="https://github.com/payal105/Social-Media-App-using-Django" class="btn" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="http://socialmedia.pythonanywhere.com/" class="btn" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+
+                <div class="box">
+                    <img src="images/work-6.png" alt="">
+                    <h3 class="title">News App (Android)</h3>
+                    <p>A handy news app for those who are fond to update themselves regularly built using JAVA in Android Studio. Have a look through the link below.</p>
+                    <a href="https://drive.google.com/file/d/1X54IyWFNb-xHc_6VH8DRtKJa4CH2mq3T/view" class="btn" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+
+                <div class="box">
+                    <img src="images/work-7.png" alt="">
+                    <h3 class="title">Portfolio Website</h3>
+                    <p>A portfolio website is a must have for every developer. This website is made using HTML,CSS & JS and at the same time it is responsive too. Access the source code through github and have a look through the link provided below.</p>
+                    <a href="https://github.com/payal105/Payal-Adhikary" class="btn" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://payal-adhikary.onrender.com/" class="btn" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+                <div class="box">
+                    <img src="images/work-8.png" alt="">
+                    <h3 class="title">Disney+ Clone</h3>
+                    <p>It is simply a cloning of Disney+ Hotstar. You should also try some cloning projects to have good command over web development. Get the source code in my github repository and have a quick look through the link below.</p>
+                    <a href="https://github.com/payal105/Disney-Clone" class="btn" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://disneyclone.onrender.com/" class="btn" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+                <div class="box">
+                    <img src="images/work-9.png" alt="">
+                    <h3 class="title">Food Delivery App (UI/UX)</h3>
+                    <p>This is the mobile app design of a food delivery app using Figma. Have a look through the link below.</p>
+                    <a href="https://www.behance.net/gallery/162520373/Food-Delivery-App-%28Mobile-Design%29?share=1" class="btn" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
         </div>
     </section>
 
-    <div class="projects" id="projects">
-        <h3>my works</h3>
-        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for projects...">
-        <div class="table-container">
-
-
-
-            <table id="myTable">
-                <tr class="header">
-                    <th>S.No</th>
-                    <th>Image</th>
-                    <th>Project Title</th>
-                    <th>Links</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td><img src="images/work-1.png" alt=""></td>
-                    <td>Chat Application using PHP, SQL & AJAX</td>
-                    <td><a href="https://github.com/payal105/PHPChatApp"><i class="fa-brands fa-github"></i></a> <a href="http://mychathandle.epizy.com/"><i
-                                class="fa-solid fa-link"></i></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td><img src="images/work-2.png" alt=""></td>
-                    <td>Signup & Signin Screens (UI/UX)</td>
-                    <td><a href="https://www.behance.net/gallery/162391009/SignUp-SignIn-Screens"><i
-                                class="fa-solid fa-link"></i></a></td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td><img src="images/work-3.png" alt=""></td>
-                    <td>Realtime Chat Application using NodeJS, Express & Socket.io</td>
-                    <td><a href="https://github.com/payal105/myChatRoom"><i class="fa-brands fa-github"></i></a> <a href="https://mychatroom.onrender.com/"><i
-                                class="fa-solid fa-link"></i></a></td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td><img src="images/work-4.png" alt=""></td>
-                    <td>Apple Watch Landing Page (Web Design)</td>
-                    <td> <a href="https://www.behance.net/gallery/162443475/Apple-Watch-Landing-Page-Design"><i
-                                class="fa-solid fa-link"></i></a></td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td><img src="images/work-5.png" alt=""></td>
-                    <td>Social Media App using Django</td>
-                    <td> <a href="https://github.com/payal105/Social-Media-App-using-Django"></i></a><a href="http://socialmedia.pythonanywhere.com/"><i
-                                class="fa-solid fa-link"></i></a></td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td><img src="images/work-6.png" alt=""></td>
-                    <td>News App</td>
-                    <td> <a href="https://drive.google.com/file/d/1X54IyWFNb-xHc_6VH8DRtKJa4CH2mq3T/view"><i
-                                class="fa-solid fa-link"></i></a></td>
-                </tr>
-            </table>
-        </div>
-    </div>
-
+    <!-- contact -->
     <section class="contact" id="contact">
-        <h3>Get In Touch</h3>
-        <div class="form">
+        <h1 class="section-title">Get In Touch</h1>
+        <div class="contact-form" id="form">
             <form action="https://formsubmit.co/payaladhikary.portfolio@gmail.com" method="POST">
+
                 <input type="hidden" name="_captcha" value="false">
                 <input type="hidden" id="website" name="website" value="Codious Payal" readonly>
                 <input type="text" name="name" placeholder="Your name" required>
                 <input type="email" name="email" placeholder="Your email" required>
-                <input type="text" name="message" placeholder="Your message" required>
+                <textarea name="message" placeholder="Enter your message..." cols="30" rows="10" required></textarea>
                 <button class="btn" type="submit">Send</button>
+
+                <div class="more-info">Or Connect Through <span>👇</span></div>
+
+                <div class="info1">
+
+                    <p><span>Website</span> : <a
+                            href="https://payaladhikary-portfolio.onrender.com/">payaladhikary- <br> portfolio.onrender</a>
+                    </p>
+
+
+                </div>
+
+                <div class="info2">
+                    <p><span>Email</span> : <a href="#">payaladhikary. <br> portfolio@gmail.com</a></p>
+                </div>
+
+                <div class="info3">
+                    <p><span>Phone</span> : <a href="#">+91-7091630692</a></p>
+                </div>
             </form>
-        </div>
+
     </section>
-
-
-    
-    <script src="https://kit.fontawesome.com/1d5b66556a.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbztGlqmfiBMW7ge7xILzbC7pMs3GZJLiW2xXVqHZlOqKSVjwgqDqddxz1A_nk_FeD1XzQ/exec'
-        const form = document.forms['submit-to-google-sheet']
-        const msg = document.getElementById("msg")
-      
-        form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => {
-                msg.innerHTML = "Thanks for subscribing!"
-                setTimeout(function(){
-                    msg.innerHTML = ""
-                },5000)
-                form.reset()
-            })
-            .catch(error => console.error('Error!', error.message))
-        })
-      </script>
+    <script src="https://kit.fontawesome.com/1d5b66556a.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
