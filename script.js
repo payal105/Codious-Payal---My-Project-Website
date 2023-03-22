@@ -1,28 +1,19 @@
-function myFunction() {
-  // Declare variables
-  var input, filter, table, tr, td, i, txtValue;
-  input = document.getElementById("myInput");
-  filter = input.value.toUpperCase();
-  table = document.getElementById("myTable");
-  tr = table.getElementsByTagName("tr");
+let inputBox = document.querySelector(".input-box"),
+    search = document.querySelector(".search"),
+    closeIcon = document.querySelector(".close-icon");
 
-  // Loop through all table rows, and hide those who don't match the search query
-  for (i = 0; i < tr.length; i++) {
-      td = tr[i].getElementsByTagName("td")[2];
-      if (td) {
-          txtValue = td.textContent || td.innerText;
-          if (txtValue.toUpperCase().indexOf(filter) > -1) {
-              tr[i].style.display = "";
-          } else {
-              tr[i].style.display = "none";
-          }
-      }
-  }
-}
+    search.addEventListener("click",() => inputBox.classList.add("open"));
+    closeIcon.addEventListener("click",() => inputBox.classList.remove("open"));
 
-document.querySelector('#contact-form').addEventListener('submit', (e) => {
-    e.preventDefault();
-    e.target.elements.name.value = '';
-    e.target.elements.email.value = '';
-    e.target.elements.message.value = '';
-  });
+const projectSearch = document.getElementById('projectSearch');
+projectSearch.addEventListener('keyup', e=> {
+    let currentValue = e.target.value.toLowerCase();
+    let projects = document.querySelectorAll('h3.title');
+    projects.forEach(project => {
+        if (project.textContent.toLowerCase().includes(currentValue)){
+            project.parentNode.style.display = "block";
+        }else{
+            project.parentNode.style.display = "none";
+        }
+    })
+})
