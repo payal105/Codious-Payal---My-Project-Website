@@ -119,7 +119,37 @@ section{
 .home button a:hover{
     color: #f4b415;
 }
-
+/* newsletter */
+.newsletter .sub-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-form form input,button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    outline: none;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.sub-form form button{
+    padding: 10px;
+    background: #f4b415;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.sub-form span{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
 /* projects */
 
 .projects .project-area{
